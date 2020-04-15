@@ -1,2 +1,2 @@
-# dojo
+# Dojo
 Learn and break
