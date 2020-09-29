@@ -1,0 +1,46 @@
+/*Charter - Body*/
+@font-face{
+    font-family: 'Charter';
+    src: url('fonts/Charter/charter_regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Charter';
+    src: url('fonts/Charter/charter_italic.woff') format('woff');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Charter';
+    src: url('fonts/Charter/charter_bold.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+}
+
+/*Cooper Hewitt - Headings*/
+@font-face{
+    font-family: 'CooperHewitt';
+    src: url('fonts/CooperHewitt/CooperHewitt-Book.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'CooperHewitt';
+    src: url('fonts/CooperHewitt/CooperHewitt-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Charter', serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'CooperHewitt';
+}
